@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 //database info
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'help_project');

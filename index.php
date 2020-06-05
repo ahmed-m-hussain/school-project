@@ -1,6 +1,10 @@
 <?php
 require_once 'lib/config.php';
-
+require_once 'lib/functions.php';
+if (isset($_SESSION['is_login']) and $_SESSION['is_login'] == true) {
+    header("Location: employees.php");
+    exit();
+}
 ?>
 
 <!doctype html>
@@ -24,7 +28,7 @@ require_once 'lib/config.php';
 
         <!-- Icon -->
         <div class="fadeIn first">
-           <h1>Login</h1>
+            <h1>Login</h1>
         </div>
 
         <!-- Login Form -->
