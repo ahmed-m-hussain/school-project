@@ -66,13 +66,40 @@ foreach ($xmlToArray['employee'] as $data) {
                     <h3>Employees</h3>
                 </div>
                 <div class="card-body">
-                    <form>
-                        <input type="text" value="<?= _get('officeCode') ?>" name="officeCode"
-                               placeholder="Office Code">
-                        <input type="text" value="<?= _get('reportsTo') ?>" name="reportsTo" placeholder="Report To">
-                        <input type="text" value="<?= _get('jobTitle') ?>" name="jobTitle" placeholder="Job Title">
-                        <button type="submit">Filter</button>
+                    <form class="form">
+                        <table>
+                            <tr>
+                                <td>
+                                    <input class="form-control" type="text" value="<?= _get('officeCode') ?>"
+                                           name="officeCode"
+                                           placeholder="Office Code">
+                                </td>
+                                <td>
+                                    <input class="form-control" type="text" value="<?= _get('officeCode') ?>"
+                                           name="officeCode"
+                                           placeholder="Office Code">
+                                </td>
+                                <td>
+                                    <input class="form-control" type="text" value="<?= _get('reportsTo') ?>"
+                                           name="reportsTo" placeholder="Report To">
+                                </td>
+                                <td>
+                                    <input class="form-control" type="text" value="<?= _get('jobTitle') ?>"
+                                           name="jobTitle"
+                                           placeholder="Job Title">
+                                </td>
+                                <td>
+                                    <button type="submit">Filter</button>
+                                </td>
+                                <td>
+                                    <button onclick="print()" type="button">Print</button>
+                                </td>
+                            </tr>
+                        </table>
+
+
                     </form>
+
                     <table class="table">
                         <thead class="thead-light">
                         <tr>

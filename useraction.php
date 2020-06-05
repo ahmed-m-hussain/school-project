@@ -38,6 +38,7 @@ foreach ($xmlToArray['employee'] as $data) {
                     <h3>Users Actions</h3>
                 </div>
                 <div class="card-body">
+                    <button onclick="print()" type="button">Print</button>
 
                     <table class="table">
                         <thead class="thead-light">
