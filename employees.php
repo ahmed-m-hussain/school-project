@@ -5,25 +5,25 @@ require_once 'lib/functions.php';
 require_once 'view/header.php';
 $query_search = '';
 $where = '';
-if (isset($_GET['officeCode']) and $officeCode = $_GET['officeCode']) {
-    $where .= " where officeCode = '$officeCode'";
+if ($officeCode = _get('officeCode')) {
+    $where .= " where officeCode like '%$officeCode%'";
 }
 if ($where) {
-    if (isset($_GET['jobTitle']) and $jobTitle = $_GET['jobTitle']) {
-        $where .= " and where jobTitle = '$jobTitle'";
+    if ($jobTitle = _get('jobTitle')) {
+        $where .= " and where jobTitle like '%$jobTitle%'";
     }
 } else {
-    if (isset($_GET['jobTitle']) and $jobTitle = $_GET['jobTitle'])
-        $where .= " where officeCode = '$jobTitle'";
+    if ($jobTitle = _get('jobTitle'))
+        $where .= " where jobTitle like '%$jobTitle%'";
 
 }
 if ($where) {
-    if (isset($_GET['reportsTo']) and $reportsTo = $_GET['reportsTo']) {
+    if ($reportsTo = _get('reportsTo')) {
         $where .= " and where reportsTo = '$reportsTo'";
     }
 } else {
-    if (isset($_GET['reportsTo']) and $reportsTo = $_GET['reportsTo'])
-        $where .= " where reportsTo = '$reportsTo'";
+    if ($reportsTo = _get('reportsTo'))
+        $where .= " where reportsTo like '%$reportsTo%'";
 
 }
 
@@ -69,11 +69,7 @@ foreach ($xmlToArray['employee'] as $data) {
                     <form class="form">
                         <table>
                             <tr>
-                                <td>
-                                    <input class="form-control" type="text" value="<?= _get('officeCode') ?>"
-                                           name="officeCode"
-                                           placeholder="Office Code">
-                                </td>
+
                                 <td>
                                     <input class="form-control" type="text" value="<?= _get('officeCode') ?>"
                                            name="officeCode"
