@@ -1,0 +1,212 @@
+<employees>
+	<employee>
+		<jobTitle>President</jobTitle>
+		<reportsTo>0</reportsTo>
+		<officeCode>11</officeCode>
+		<email>dmurphy@classicmodelcars.</email>
+		<extension>x5800</extension>
+		<firstName>Diane</firstName>
+		<lastName>Murphy </lastName>
+		<employeeNumber>1002</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>VP Sales</jobTitle>
+		<reportsTo>1002</reportsTo>
+		<officeCode>1</officeCode>
+		<email>mpatterso@classicmodelcar</email>
+		<extension>x4611</extension>
+		<firstName>Mary</firstName>
+		<lastName>Patterson </lastName>
+		<employeeNumber>1056</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>VP Marketing</jobTitle>
+		<reportsTo>1002</reportsTo>
+		<officeCode>1</officeCode>
+		<email>jfirrelli@classicmodelcar</email>
+		<extension>x9273</extension>
+		<firstName>Jeff</firstName>
+		<lastName>Firrelli</lastName>
+		<employeeNumber>1076</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Manager (</jobTitle>
+		<reportsTo>1056</reportsTo>
+		<officeCode>1</officeCode>
+		<email>abow@classicmodelcars.com</email>
+		<extension>x5428</extension>
+		<firstName>Anthony</firstName>
+		<lastName>Bow </lastName>
+		<employeeNumber>1143</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1143</reportsTo>
+		<officeCode>1</officeCode>
+		<email>ljennings@classicmodelcar</email>
+		<extension>x3291</extension>
+		<firstName>Leslie</firstName>
+		<lastName>Jennings </lastName>
+		<employeeNumber>1165</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1143</reportsTo>
+		<officeCode>1</officeCode>
+		<email>lthompson@classicmodelcar</email>
+		<extension>x4065</extension>
+		<firstName>Leslie</firstName>
+		<lastName>Thompson </lastName>
+		<employeeNumber>1166</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1143</reportsTo>
+		<officeCode>2</officeCode>
+		<email>jfirrelli@classicmodelcar</email>
+		<extension>x2173</extension>
+		<firstName>Julie</firstName>
+		<lastName>Firrelli</lastName>
+		<employeeNumber>1188</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1143</reportsTo>
+		<officeCode>2</officeCode>
+		<email>spatterson@classicmodelca</email>
+		<extension>x4334</extension>
+		<firstName>Steve</firstName>
+		<lastName>Patterson </lastName>
+		<employeeNumber>1216</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1143</reportsTo>
+		<officeCode>3</officeCode>
+		<email>ftseng@classicmodelcars.c</email>
+		<extension>x2248</extension>
+		<firstName>Foon Yue</firstName>
+		<lastName>Tseng </lastName>
+		<employeeNumber>1286</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1143</reportsTo>
+		<officeCode>3</officeCode>
+		<email>gvanauf@classicmodelcars.</email>
+		<extension>x4102</extension>
+		<firstName>George</firstName>
+		<lastName>Vanauf</lastName>
+		<employeeNumber>1323</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sale Manager (E</jobTitle>
+		<reportsTo>1056</reportsTo>
+		<officeCode>4</officeCode>
+		<email>gbondur@classicmodelcars.</email>
+		<extension>x5408</extension>
+		<firstName>Gerard</firstName>
+		<lastName>Bondur</lastName>
+		<employeeNumber>1102</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1102</reportsTo>
+		<officeCode>4</officeCode>
+		<email>lbondur@classicmodelcars.</email>
+		<extension>x6493</extension>
+		<firstName>Loui</firstName>
+		<lastName>Bondur</lastName>
+		<employeeNumber>1337</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1102</reportsTo>
+		<officeCode>4</officeCode>
+		<email>ghernande@classicmodelcar</email>
+		<extension>x2028</extension>
+		<firstName>Gerard</firstName>
+		<lastName>Hernandez </lastName>
+		<employeeNumber>1370</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1102</reportsTo>
+		<officeCode>4</officeCode>
+		<email>pcastillo@classicmodelcar</email>
+		<extension>x2759</extension>
+		<firstName>Pamela</firstName>
+		<lastName>Castillo </lastName>
+		<employeeNumber>1401</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1102</reportsTo>
+		<officeCode>4</officeCode>
+		<email>mgerard@classicmodelcars.</email>
+		<extension>x2312</extension>
+		<firstName>Martin</firstName>
+		<lastName>Gerard </lastName>
+		<employeeNumber>1702</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1056</reportsTo>
+		<officeCode>5</officeCode>
+		<email>mnishi@classicmodelcars.c</email>
+		<extension>x101</extension>
+		<firstName>Mami</firstName>
+		<lastName>Nishi </lastName>
+		<employeeNumber>1621</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1621</reportsTo>
+		<officeCode>5</officeCode>
+		<email>ykato@classicmodelcars.co</email>
+		<extension>x102</extension>
+		<firstName>Yoshimi</firstName>
+		<lastName>Kato </lastName>
+		<employeeNumber>1625</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Manager (</jobTitle>
+		<reportsTo>1056</reportsTo>
+		<officeCode>6</officeCode>
+		<email>wpatterson@classicmodelca</email>
+		<extension>x4871</extension>
+		<firstName>William</firstName>
+		<lastName>Patterson </lastName>
+		<employeeNumber>1088</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1088</reportsTo>
+		<officeCode>6</officeCode>
+		<email>afixter@classicmodelcars.</email>
+		<extension>x101</extension>
+		<firstName>Andy</firstName>
+		<lastName>Fixter</lastName>
+		<employeeNumber>1611</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1088</reportsTo>
+		<officeCode>6</officeCode>
+		<email>pmarsh@classicmodelcars.c</email>
+		<extension>x102</extension>
+		<firstName>Peter</firstName>
+		<lastName>Marsh </lastName>
+		<employeeNumber>1612</employeeNumber>
+	</employee>
+	<employee>
+		<jobTitle>Sales Rep</jobTitle>
+		<reportsTo>1088</reportsTo>
+		<officeCode>6</officeCode>
+		<email>tking@classicmodelcars.co</email>
+		<extension>x103</extension>
+		<firstName>Tom</firstName>
+		<lastName>King </lastName>
+		<employeeNumber>1619</employeeNumber>
+	</employee>
+</employees>

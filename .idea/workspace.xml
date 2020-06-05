@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e176a94-e4aa-495c-9aec-3f7f72a1a6da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/employees.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/useraction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userlogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employees.php" beforeDir="false" afterPath="$PROJECT_DIR$/employees.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\help\project" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,6 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591263224405</updated>
       <workItem from="1591263227380" duration="10190000" />
+      <workItem from="1591327458768" duration="141000" />
+      <workItem from="1591350959539" duration="7501000" />
     </task>
     <servers />
   </component>
@@ -91,7 +98,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
